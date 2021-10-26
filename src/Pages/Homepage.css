@@ -1,0 +1,16 @@
+.home-page{
+    height: 110vh;
+    background: linear-gradient(
+            to right,
+            rgb(121, 122, 255),
+            rgb(135, 232, 255) 90%
+        );
+}
+.timeline{
+    height: 110vh;
+    background: linear-gradient(
+            to right,
+            rgb(121, 122, 255),
+            rgb(135, 232, 255) 90%
+        );
+}

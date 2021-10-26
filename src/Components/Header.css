@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 1rem 3rem 1rem;
+    clear: left;
+    height: 10vh;
+    background: transparent;
+    position: static;
+    margin-right: 3.5rem;
+}
+
+.menu li{
+    list-style: none;
+    margin-top: auto;
+    margin-right: 2.5rem;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.menu li select{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}

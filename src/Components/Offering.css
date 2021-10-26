@@ -1,0 +1,40 @@
+.offering-page{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+.offering-page-top {
+    margin-top: 4rem;
+    padding: 20px 20px 20px 20px;
+}
+.offering-page-top h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: #222;
+    color: #222;
+}
+.offering-page-top p{
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    line-height: 26px;
+    color: #777;
+    margin-bottom: 0;
+}
+.offering-page-flex{
+    display: flex;
+}
+.offering-page-flex h2{
+    color: #222;
+    font-size: 21px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.offering-page-flex p{
+    line-height: 26px;
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    color: #777;
+}

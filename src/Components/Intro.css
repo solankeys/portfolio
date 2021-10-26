@@ -1,0 +1,93 @@
+.intro-card{
+    background: white;
+    margin-top:4.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 4px 4px rgba(204, 204, 204, 0.5);
+    display: flex;
+    justify-content: center;
+    width: 85vw;
+    height: 110vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-left{
+    flex: 2;
+}
+.card-left img{
+    margin: 30px 80px 40px 20px;
+    width: 600px ;
+    height: 100vh;
+    border-radius: 6px;
+    object-fit: cover;
+}.card-right{
+    padding: 40px;
+    flex: 1;
+}
+.myintro p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.myintro h1{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+.myintro h2{
+    font-size:20px ;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-right-ul {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+.card-right-ul li{
+    padding-top: 20px;
+}
+.fa-calendar-alt, .fa-phone-alt, .fa-envelope, .fa-house-user, .fa-facebook-square, .fa-twitter-square, .fa-linkedin{
+    margin-right: 15px;
+    color: #ccc ;
+}
+.socialicons{
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+.socialicons li{
+    margin-right: 20px;
+
+}
+/* .card-right li{
+    animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move {
+   20%{
+        transform: translate (-30px);
+    }
+   20%{
+        transform: translate (-50px);
+    }
+    25%{
+        transform: translate (-90px);
+    }
+    25%{
+        transform: translate (-120px);
+    }
+    25%{
+        transform: translate (-150px);
+    }
+    25%{
+        transform: translate (-200px);
+    }
+} */
+
+.about-me{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}

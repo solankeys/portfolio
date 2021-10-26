@@ -1,0 +1,120 @@
+.about-compo{
+    padding: 50px;
+    margin:2rem 0 2rem 3rem ;
+    width: 70vw;
+}
+.about-compo{
+    display: flex;
+}
+.about-left{
+    flex:1;
+    margin-right: 8rem;
+}
+.about-left p{
+    display: inline-block;
+    justify-content: center;
+    text-align: justify;
+    font-family: "Roboto",sans-serif;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #777;
+}
+.about-left-lower{
+    display: flex;
+    justify-content: space-around;
+}
+.about-left-lower-icons{
+    border: 1px solid #eee;
+    padding: 10px 10px 10px 10px;
+    margin-right: 1rem;
+}
+.lnr-database, .lnr-book, .lnr-users{
+    font-size: 24px;
+    background: linear-gradient(to right,#766dff 0%,#86e7ff 70%);
+    outline: none;
+}
+.about-right{
+    flex: 1;
+    width: 100%;
+    right: 0;
+}
+.about-right h4{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+.meter { 
+    height: 10px;
+    position: relative;
+    background: #f3efe6;
+    overflow: hidden;
+    padding: 5px 2px 5px 2px;
+    border-radius: 20px;
+}
+.meter span , .progress .progress1,.progress2, .progress3 {
+    display: block;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.progress {
+    background: linear-gradient(
+        to right,
+        rgb(121, 122, 255),
+        rgb(135, 232, 255) 90%
+    );
+    width: 100%;
+    animation: progressBar 4s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 85%; }
+}
+.progress1 {
+    background: linear-gradient(
+        to right,
+        rgb(121, 122, 255),
+        rgb(135, 232, 255) 90%
+    );
+    animation: progressBar1 4s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBar1 {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+.progress2 {
+    background: linear-gradient(
+            to right,
+            rgb(121, 122, 255),
+            rgb(135, 232, 255) 90%
+        );
+    animation: progressBar2 4s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBar2 {
+  0% { width: 0; }
+  100% { width: 60%; }
+}
+.progress3 {
+    background: linear-gradient(
+        to right,
+        rgb(121, 122, 255),
+        rgb(135, 232, 255) 90%
+    );
+    animation: progressBar3 4s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes progressBar3 {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
